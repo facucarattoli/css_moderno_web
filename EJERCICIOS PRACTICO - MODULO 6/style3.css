@@ -1,0 +1,155 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.section1{
+    background-color: rgb(29, 51, 48);
+    color: white;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    gap: 10px;
+}
+.section1 >img{
+    margin-bottom: 15px;
+}
+
+.section2{
+    background-color: rgb(24, 24, 44);
+    color: white;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    gap: 20px;
+    text-align: center;
+}
+
+.section2 > div > img {
+    width: 300px;   
+}
+
+.section3{
+    background-color: rgb(29, 51, 48);
+    color: white;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.imagesection{
+    width: 250px; 
+}
+
+nav{
+    background-color: rgb(184, 67, 0);
+    padding-top: 5px;
+}
+
+/* .barranavegacion > ul > li > img{
+    background-i;
+} quise cambiar colores de los iconos del nav pero no pude*/ 
+
+.lista{ 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.transition{
+    cursor: pointer;
+    transition: all ease-out 300ms;
+    /* width: 30px; */
+}
+ 
+.transition:hover{ 
+     padding: 10px;
+     border-bottom: 3px solid rgb(24, 24, 44);
+} /*HOVER agranda la imagen cuando paso el cursos sobre ella y ademas le agrega una linea debajo */
+ 
+.transition > img{
+    width: 30px;
+}
+
+ .avatar > img {
+     width: 40px;    
+}
+
+.avatar{
+     cursor: pointer;
+     transition: all ease-in 300ms;
+}
+ 
+.avatar:hover{ padding: 10px;
+  /* border-bottom: 3px solid rgba(175, 6, 6, 0.63); */
+}
+
+@media only screen and (max-width: 500px){
+    .barranavegacion > ul > li { 
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        /* min-width: 100px; */
+    }   
+
+        .section1{
+            background-color: rgb(29, 51, 48);
+            color: white;
+            font-size: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content:center;
+            align-items: center;
+            height: 100vh;
+            width: 100%;
+            gap: 10px;
+        }
+        
+        
+        .section2{
+            background-color: rgb(24, 24, 44);
+            color: white;
+            font-size: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content:space-around;
+            align-items: center;
+            height: 100vh;
+            /* width: 100%; */
+            text-align: center;
+            gap: 20px;
+        }
+        
+        .section3{
+            background-color: rgb(29, 51, 48);
+            color: white;
+            font-size: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content:center;
+            align-items: center;
+            height: 100vh;
+            width: 100%;
+        }
+         
+        img{ max-width: 100px;}
+
+        
+                   
+}

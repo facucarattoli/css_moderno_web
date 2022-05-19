@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+/* header > nav > ul{ 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+} */
+.contenedorpadre{
+    background-color: rgba(0, 0, 0, 0.63);
+    padding-top: 5px;
+    /* transition: all ease-out 250ms; */
+}
+.lista{ 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+img{width: 30px;}
+
+.transition{
+   cursor: pointer;
+   transition: all ease-out 300ms;
+}
+.transition:hover{ 
+    padding: 10px;
+    border-bottom: 3px solid rgba(175, 6, 6, 0.63);
+} /*HOVER agranda la imagen cuando paso el cursos sobre ella y ademas le agrega una linea debajo */
+
+.avatar > img {
+    width: 40px;    
+}
+.avatar{
+    cursor: pointer;
+    transition: all ease-in 300ms;
+}
+
+.avatar:hover{ padding: 10px;
+ /* border-bottom: 3px solid rgba(175, 6, 6, 0.63); */
+}
